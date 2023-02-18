@@ -353,7 +353,6 @@ body {
 }
 
 .main-container {
-  width: 375px;
   border: 1px solid red;
   margin: auto;
   position: relative;
