@@ -1,0 +1,50 @@
+@use 'variables' as v;
+.extension{
+    padding: 25px;
+    text-align: center;
+    margin-top: 80px;
+    &__title{
+        color: v.$Very-Dark-Blue;
+    }
+    &__text{
+        color: v.$Grayish-Blue;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+
+    // estilos de las cards
+    .extension__cards{
+        margin-top: 50px;
+    }
+    &__card{
+        box-shadow: 3px 10px 18px rgb(0 0 0 / 20%);
+        padding: 20px 20px;
+        border-radius: 10px;
+        margin-top: 25px;
+    }
+    &__card-img{
+        margin-top: 30px;
+    }
+    &__card-title{
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    &__card-text{
+        color: v.$Grayish-Blue;
+        margin-bottom: 30px;
+    }
+    &__card-button{
+        width: 100%;
+        background-color: v.$Soft-Blue;
+        color: v.$White;
+        border: none;
+        padding: 15px 0;
+        font-weight: 500;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+}
+

@@ -1,0 +1,46 @@
+@use 'header';
+@use 'navbar';
+@use 'navbar-modal';
+@use 'hero';
+@use 'variables';
+@use 'mixins';
+@use 'features';
+@use 'extension';
+@use 'questions';
+@use 'contact';
+@use 'footer';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.main-container{
+    width: 375px;
+    border: 1px solid red;
+    margin: auto;
+    position: relative;
+
+}
+img{
+    max-width: 100%;
+}
+
+button{
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    
+}

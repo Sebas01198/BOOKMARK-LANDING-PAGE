@@ -1,0 +1,53 @@
+@use 'variables' as v;
+
+.questions{
+    padding: 25px;
+    margin-top: 70px;
+    &__description{
+        text-align: center;
+    }
+    &__title{
+        margin-bottom: 20px;
+    }
+    &__text{
+        color: v.$Grayish-Blue;
+        line-height: 1.4;
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+
+
+
+    &__question{
+        border-bottom: 1px solid v.$Grayish-Blue;
+    }
+
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    &__answer{
+        display: none;
+        margin-bottom: 20px;
+    }
+    &__button {
+        text-align: center;
+    }
+    &__button button{
+        padding: 15px 20px;
+        margin-top: 30px;
+        background-color: v.$Soft-Blue;
+        border: none;
+        border-radius: 5px;
+        color: v.$White;
+        cursor: pointer;
+    }
+    &__icon{
+        cursor: pointer;
+    }
+    
+
+}

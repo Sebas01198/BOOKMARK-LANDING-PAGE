@@ -1,0 +1,25 @@
+@mixin button{
+    padding:15px 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+// @mixin tab{
+//     &__image{
+//         margin: 80px 0;
+//     }
+    
+//     &__title{
+//         margin-bottom: 20px;
+//     }
+//     &__text{
+//         font-size: 16px;
+//         color: v.$Grayish-Blue;
+//         line-height: 1.4;
+//     }
+//     &__button{
+//         display: none;
+//     }
+// }

@@ -1,0 +1,42 @@
+@use 'variables' as v;
+
+.contact{
+    background-color: v.$Soft-Blue;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    color: v.$White;
+
+    &__contain{
+        padding: 25px;
+    }
+    &__number{
+        margin-bottom: 15px;
+        letter-spacing: 3px;
+    }
+    &__title{
+        font-weight: 500;
+    }
+    &__form{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__input{
+        padding: 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    &__button{
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        border: none;
+        color: v.$White;
+        background-color: v.$Soft-Red;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+}

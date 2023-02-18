@@ -1,0 +1,32 @@
+@use 'variables' as v;
+
+.footer{
+    background-color: v.$Very-Dark-Blue;
+    padding: 50px 0;
+    
+
+    &__contact{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    &__logo{
+        width: 200px;
+        margin: auto;
+    }
+    &__link{
+        color: v.$White;
+        text-align: center;
+        margin-top: 25px;
+        letter-spacing: 2px;
+    }
+
+    &__redes{
+        width: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        text-align: center;
+    }
+
+}
